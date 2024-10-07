@@ -1,7 +1,25 @@
+$red: red;
+
 .navbar-buttons{
    justify-content: end;
-   color: red;
- 
+  
+}
+.nav-link{
+   margin-right: 2rem;
+   &:hover {
+      color: red;
+   }
+}
+
+.navbar-buttons-login{
+   border-radius:0.4rem;
+   border: 0.12rem solid red;
+   background-color: rgb(241, 79, 79);
+   color: white;
+   &:hover{
+      background: none;
+      color: red;
+   }
 }
 
 /*

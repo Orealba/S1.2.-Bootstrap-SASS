@@ -1,6 +1,20 @@
 .navbar-buttons {
   justify-content: end; }
 
+.nav-link {
+  margin-right: 2rem; }
+  .nav-link:hover {
+    color: red; }
+
+.navbar-buttons-login {
+  border-radius: 0.4rem;
+  border: 0.12rem solid red;
+  background-color: #f14f4f;
+  color: white; }
+  .navbar-buttons-login:hover {
+    background: none;
+    color: red; }
+
 /*
 hacerle hover a features rojo
 hacer un boton al login bordes
