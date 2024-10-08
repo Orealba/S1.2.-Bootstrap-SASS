@@ -1,19 +1,49 @@
+.container {
+  position: relative; }
+
 .navbar-buttons {
   justify-content: end; }
 
 .nav-link {
   margin-right: 2rem; }
   .nav-link:hover {
-    color: red; }
+    color: #FA5959; }
 
 .navbar-buttons-login {
   border-radius: 0.4rem;
-  border: 0.12rem solid red;
-  background-color: #f14f4f;
+  border: 0.12rem solid #FA5959;
+  background-color: #FA5959;
   color: white; }
   .navbar-buttons-login:hover {
     background: none;
-    color: red; }
+    color: #FA5959; }
+
+.header-first-part-text .header-first-part-text-title {
+  margin-top: 4rem;
+  color: 5265E1;
+  font-size: 3.5rem; }
+.header-first-part-text .header-first-part-text-parragrah {
+  color: #9f9f9f;
+  padding-right: 3rem;
+  font-size: 1.4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 300; }
+.header-first-part-text .header-first-part-buttons-chrome {
+  background: #5265E1;
+  color: white;
+  border: 0.1rem solid #5265E1;
+  font-weight: 500;
+  margin-right: 1rem; }
+  .header-first-part-text .header-first-part-buttons-chrome:hover {
+    color: #5265E1;
+    background: none; }
+.header-first-part-text .header-first-part-buttons-firefox {
+  background: none;
+  color: #6d6b6b;
+  font-weight: 500;
+  border: none;
+  box-shadow: 0.1rem 0.1rem 0.3rem 0.1rem rgba(0, 0, 0, 0.1); }
 
 /*
 hacerle hover a features rojo
