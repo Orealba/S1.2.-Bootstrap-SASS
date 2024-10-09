@@ -95,10 +95,13 @@ overflow: hidden;
       font-weight: 600;
       font-size: 2.2rem;
    }
+  
    .body-paragraph-middle-text{
       color: gray;
       font-weight: 200;
-      font-size: 1.3rem;
+      font-size: 1.5rem;
+      padding-right: 20rem;
+      padding-left: 20rem;
       
    }
 }
@@ -108,12 +111,34 @@ overflow: hidden;
    
    .body-middle-menu-titles{
       color: black;
-      font-size: 1.3rem;
+      font-size: 1.5rem;
       font-weight: 300;
       margin-bottom: 1rem;
       &:hover{
          color: $secundario;
       }
+   }
+   .body-tab-content{
+      margin-bottom: 5rem;
+   }
+   .body-tab-content-first-tab-title{
+      font-size: 2.5rem;
+      
+   }
+   .body-tab-content-first-tab-text{
+      color: gray;
+      font-size: 1.5rem;
+   font-weight: 200;
+   margin-right: 6rem;
+   }
+   .body-tab-content-first-tab-button{
+      color: white;
+      font-size: 1.2rem;
+      background-color: $principal;
+      border-radius: 0.3rem;
+      margin: 0.5rem;
+      padding: 0.8rem 1.5rem 0.8rem 1.5rem;
+      border: 0.1rem solid $principal;
    }
 }
 /*
