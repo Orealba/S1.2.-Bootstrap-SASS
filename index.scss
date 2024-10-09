@@ -107,15 +107,32 @@ overflow: hidden;
 }
 
 .body-middle-menu{
-   
-   
-   .body-middle-menu-titles{
-      color: black;
-      font-size: 1.5rem;
+   justify-content: center;
+   border-bottom: 0.5px lightgray solid ;
+   .active{
+      border: none;
+      border-bottom: 4px #FA5959 solid ;
+      padding: 0 6rem;
+      margin-bottom: 0 ;
+   }
+   &-titles{
+      background-color: transparent;
+      border: none;
+      border-bottom: transparent solid 4px;
+      font-size: 1.25rem;
       font-weight: 300;
-      margin-bottom: 1rem;
+      letter-spacing: 2px;
+      margin: 0;
+      padding: 2rem 3rem ;
+      width: 32%;
+       
       &:hover{
          color: $secundario;
+         border: none;
+         border-bottom: 4px transparent solid;
+         padding: 2rem 3rem;
+         margin: 0 ;
+         
       }
    }
    .body-tab-content{
