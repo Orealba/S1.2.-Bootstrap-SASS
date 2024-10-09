@@ -3,7 +3,9 @@ $principal: #5265E1;
 $secundario: #FA5959;
 
 .container{
-   position: relative;
+position: relative;
+            
+overflow: hidden;
 }
 .navbar-buttons{
    justify-content: end;
@@ -32,10 +34,10 @@ $secundario: #FA5959;
    
    .header-first-part-text-title{
       margin-top: 4rem;
-      color: 5265E1;
+      
       font-size: 3.5rem;
    }
-   .header-first-part-text-parragrah{
+   .header-first-part-text-paragraph{
       color: rgb(159, 159, 159);
       padding-right: 3rem;
       font-size: 1.4rem;
@@ -63,8 +65,56 @@ $secundario: #FA5959;
       font-weight: 500;
       border: none;
       box-shadow: 0.1rem 0.1rem 0.3rem 0.1rem rgba(0.1, 0.1, 0.1, 0.1);
+      &:hover{
+         background: none;
+         border: 0.1rem solid black;
+      }
    }
    
+   .header-first-part-image-circle{
+      position: absolute;
+      bottom: -100px; 
+      right: -150px;
+      width: 400px;
+      height: 400px;
+      background-color: $principal;
+      border-radius: 50%; 
+      z-index: -1;
+      justify-content: end;
+   }
+   .header-first-part-image-foto{
+      position: absolute;
+   }
+   
+}
+
+.body-paragraph-middle{
+   margin-top: 5rem;
+   text-align: center;
+   .body-paragraph-middle-title{
+      font-weight: 600;
+      font-size: 2.2rem;
+   }
+   .body-paragraph-middle-text{
+      color: gray;
+      font-weight: 200;
+      font-size: 1.3rem;
+      
+   }
+}
+
+.body-middle-menu{
+   
+   
+   .body-middle-menu-titles{
+      color: black;
+      font-size: 1.3rem;
+      font-weight: 300;
+      margin-bottom: 1rem;
+      &:hover{
+         color: $secundario;
+      }
+   }
 }
 /*
 hacerle hover a features rojo
