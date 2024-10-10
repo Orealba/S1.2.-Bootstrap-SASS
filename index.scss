@@ -135,31 +135,61 @@ overflow: hidden;
          
       }
    }
+}
    .body-tab-content{
+      
+     
+      &-first-tab-image, &-second-tab-image, &-third-tab-image{
+         margin-top: 5rem;
+      }
+      &-first-tab-title, &-thrid-tab-title{
+         font-size: 2rem;
+         margin-top: 10rem;
+         
+      }
+      &-first-tab-text, &-thrid-tab-text{
+         color: gray;
+         font-size: 1.5rem;
+         font-weight: 200;
+         margin-right: 6rem;
+         margin-bottom: 2rem;
+      }
+      &-first-tab-button{
+         color: white;
+         font-size: 1.2rem;
+         background-color: $principal;
+         border-radius: 0.3rem;
+         margin: 0.5rem;
+         padding: 0.8rem 1.5rem 0.8rem 1.5rem;
+         border: 0.1rem solid $principal;
+      }
+}
+
+.body-paragraph-middle-second-part{
+   margin-top: 12rem;
+   text-align: center;
+   &-title{
+      font-weight: 600;
+      font-size: 2.2rem; 
+   }
+   &-text{
+      color: gray;
+      font-weight: 200;
+      font-size: 1.5rem;
+      padding-right: 20rem;
+      padding-left: 20rem;
       margin-bottom: 5rem;
    }
-   .body-tab-content-first-tab-title{
-      font-size: 2.5rem;
-      
-   }
-   .body-tab-content-first-tab-text{
-      color: gray;
-      font-size: 1.5rem;
-   font-weight: 200;
-   margin-right: 6rem;
-   }
-   .body-tab-content-first-tab-button{
-      color: white;
-      font-size: 1.2rem;
-      background-color: $principal;
-      border-radius: 0.3rem;
-      margin: 0.5rem;
-      padding: 0.8rem 1.5rem 0.8rem 1.5rem;
-      border: 0.1rem solid $principal;
-   }
+
 }
 /*
-hacerle hover a features rojo
-hacer un boton al login bordes
+COMENTARIOS
+
+
+
+      
+      
+   }
+}
 
 */

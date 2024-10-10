@@ -97,27 +97,50 @@
       border-bottom: 4px transparent solid;
       padding: 2rem 3rem;
       margin: 0; }
-  .body-middle-menu .body-tab-content {
-    margin-bottom: 5rem; }
-  .body-middle-menu .body-tab-content-first-tab-title {
-    font-size: 2.5rem; }
-  .body-middle-menu .body-tab-content-first-tab-text {
+
+.body-tab-content-first-tab-image, .body-tab-content-second-tab-image, .body-tab-content-third-tab-image {
+  margin-top: 5rem; }
+.body-tab-content-first-tab-title, .body-tab-content-thrid-tab-title {
+  font-size: 2rem;
+  margin-top: 10rem; }
+.body-tab-content-first-tab-text, .body-tab-content-thrid-tab-text {
+  color: gray;
+  font-size: 1.5rem;
+  font-weight: 200;
+  margin-right: 6rem;
+  margin-bottom: 2rem; }
+.body-tab-content-first-tab-button {
+  color: white;
+  font-size: 1.2rem;
+  background-color: #5265E1;
+  border-radius: 0.3rem;
+  margin: 0.5rem;
+  padding: 0.8rem 1.5rem 0.8rem 1.5rem;
+  border: 0.1rem solid #5265E1; }
+
+.body-paragraph-middle-second-part {
+  margin-top: 12rem;
+  text-align: center; }
+  .body-paragraph-middle-second-part-title {
+    font-weight: 600;
+    font-size: 2.2rem; }
+  .body-paragraph-middle-second-part-text {
     color: gray;
-    font-size: 1.5rem;
     font-weight: 200;
-    margin-right: 6rem; }
-  .body-middle-menu .body-tab-content-first-tab-button {
-    color: white;
-    font-size: 1.2rem;
-    background-color: #5265E1;
-    border-radius: 0.3rem;
-    margin: 0.5rem;
-    padding: 0.8rem 1.5rem 0.8rem 1.5rem;
-    border: 0.1rem solid #5265E1; }
+    font-size: 1.5rem;
+    padding-right: 20rem;
+    padding-left: 20rem;
+    margin-bottom: 5rem; }
 
 /*
-hacerle hover a features rojo
-hacer un boton al login bordes
+COMENTARIOS
+
+
+
+      
+      
+   }
+}
 
 */
 
