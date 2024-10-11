@@ -191,7 +191,7 @@ overflow: hidden;
       border: none;
       border-radius: 1rem;
       box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
-      margin-bottom: 5rem;
+      
 
      
       
@@ -239,6 +239,25 @@ overflow: hidden;
   .cards-third{
    margin-top: 6rem;
   }
+
+}
+.accordion{
+   width: 50%;
+      &-text{
+         font-size: 1.3rem;
+         &:hover{
+            color: $secundario;
+         }
+   }
+   .accordion-body{
+      text-align: justify;
+      font-size: 1.2rem;
+      color: gray;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      font-weight: 300;
+      line-height: 2.5rem;
+   }
 
 }
 
