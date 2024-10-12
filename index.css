@@ -224,6 +224,32 @@
       color: #FA5959;
       border-color: #FA5959; }
 
+.footer-final {
+  background-color: #1f1c4d;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-decoration: none; }
+  .footer-final-logo {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    text-decoration: none; }
+  .footer-final-buttons {
+    text-decoration: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: white !important;
+    letter-spacing: 0.1em; }
+    .footer-final-buttons:hover {
+      color: #FA5959 !important; }
+  .footer-final-social-medias {
+    text-align: end; }
+  .footer-final-social-networks {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 3rem; }
+    .footer-final-social-networks:hover {
+      color: #FA5959 !important; }
+
 /*
 COMENTARIOS
 

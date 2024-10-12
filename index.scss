@@ -304,10 +304,43 @@ overflow: hidden;
             border-color: $secundario;
          }
       }
-      
-
-
 }
+
+
+.footer-final{
+   background-color: rgb(31, 28, 77);
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+   text-decoration: none;
+      &-logo{
+         margin-left: 3rem;
+         margin-right: 3rem;
+         text-decoration: none;
+         
+      }
+      &-buttons{
+         text-decoration: none;
+         padding-left: 1rem;
+         padding-right: 1rem;
+         color: white !important;
+         letter-spacing: 0.1em;
+            &:hover{
+               color: $secundario !important;
+            }
+      }
+      &-social-medias{
+         
+         text-align: end;
+      }
+      &-social-networks{
+         width: 2rem;
+         height: 2rem;
+         margin-right: 3rem;
+            &:hover{
+               color: $secundario !important;
+            }
+      }
+   }
 /*
 COMENTARIOS
 
