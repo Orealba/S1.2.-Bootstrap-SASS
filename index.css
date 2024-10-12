@@ -186,6 +186,43 @@
     margin-bottom: 1rem;
     font-weight: 300;
     line-height: 2.5rem; }
+  .accordion .body-tab-content-first-tab-button {
+    margin-top: 3rem;
+    margin-bottom: 5rem; }
+
+.footer {
+  margin-top: 5rem;
+  text-align: center;
+  background-color: #5265E1;
+  padding-top: 5rem; }
+  .footer-title-1 {
+    color: white;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    margin-bottom: 3rem; }
+  .footer-title-2 {
+    color: white;
+    font-weight: 500;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    letter-spacing: 0.1em; }
+  .footer-form-all {
+    padding-bottom: 5rem; }
+  .footer-form-all-box {
+    width: 20rem;
+    height: 3rem;
+    margin-right: 1rem;
+    border: none;
+    border-radius: 0.3rem; }
+  .footer-form-all-button {
+    background-color: #FA5959;
+    color: white;
+    width: 8rem;
+    height: 3rem; }
+    .footer-form-all-button:hover {
+      background-color: white;
+      color: #FA5959;
+      border-color: #FA5959; }
 
 /*
 COMENTARIOS

@@ -258,9 +258,56 @@ overflow: hidden;
       font-weight: 300;
       line-height: 2.5rem;
    }
+   .body-tab-content-first-tab-button{
+      margin-top: 3rem;
+      margin-bottom: 5rem;
+   }
 
 }
+.footer{
+   margin-top: 5rem;
+   text-align: center;
+   background-color: $principal;
+   padding-top: 5rem;
+      &-title-1{
+         color: white;
+         font-weight: 400;
+         letter-spacing: 0.3em;
+         margin-bottom: 3rem;
+      }
+      &-title-2{
+         color: white;
+         font-weight:500;
+         font-size: 2.5rem;
+         margin-bottom: 3rem;
+         letter-spacing: 0.1em;
+      }
+      &-form-all{
+       padding-bottom: 5rem;
+       
+      }
+      &-form-all-box{
+         width: 20rem;
+         height: 3rem;
+         margin-right: 1rem;
+         border: none;
+         border-radius: 0.3rem;
+      }
+      &-form-all-button{
+         background-color:$secundario ;
+         color: white;
+         width: 8rem;
+         height: 3rem;
+         &:hover{
+            background-color: white;
+            color: $secundario;
+            border-color: $secundario;
+         }
+      }
+      
 
+
+}
 /*
 COMENTARIOS
 

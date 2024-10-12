@@ -322,8 +322,7 @@
 
         <!--acordeon-->
         <div class=" row">
-<div class="col-3"></div>
-
+        <div class="col-3"></div>
           <div class="accordion accordion-flush accordion-box-all col-6" id="accordionFlushExample">
             <div class="accordion-item ">
               <h2 class="accordion-header" id="flush-headingOne">
@@ -331,7 +330,6 @@
                 What is Bookmark?
                 </button>
               </h2>
-              
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="flush-headingTwo">
@@ -341,9 +339,7 @@
               </h2>
               <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies.
-
                   Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.
-                  
                   </div>
               </div>
             </div>
@@ -371,22 +367,45 @@
                         More Info
                       </button>
           </div>
-          
           <div class="col-3"></div>
-
-
-
-          
       </div>
       </div>
-
-      
+      <!--footer-->
+      <div class="row footer">
+        <div class="col-3"></div>
+        
+        <div class="col-6">
+          <h6 class="footer-title-1">35,000 + ALREADY JOINED</h6>
+          <h3 class="footer-title-2">Stay up-to-date with what we're doing</h3>
+            <form class=" row d-flex  footer-form-all" name="emailForm" onsubmit="return validateEmail()">
+              <div class="col-12">
+                <label for="email" class="visually-hidden ">Email</label>
+                <input type="email" name="email" placeholder="Enter your email address" required class="footer-form-all-box">
+                <button type="submit" class="btn btn-primary footer-form-all-button">Contact Us</button>
+              </div>
+            </form>
+      </div>
+      <div class="col-3"></div>
 
       <!--cierre body final-->
     </div>
     <script
+
+
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"></script>
+      crossorigin="anonymous">
+        function validateEmail() {
+        var email = document.emailForm.email.value;
+        
+        if (email === '' || !email.includes('@')) {
+          alert("por favor coloque un mail válido que incluya '@'.");
+          return false; 
+        }
+        return true; 
+      }
+    
+    
+    </script>
   </body>
 </html>
