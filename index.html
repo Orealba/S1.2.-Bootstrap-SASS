@@ -2,7 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -15,8 +17,9 @@
   </head>
   <body>
     <div class="container">
-      <nav class="navbar navbar-expand-lg row mt-3 pb-5">
-        <div class="col-md-12 d-flex">
+      <nav
+        class="navbar navbar-expand-lg row mt-3 pb-5 justify-content-between">
+        <div class="col-md-5 col-5 d-flex justify-content-between">
           <a
             class="navbar-brand"
             href="#">
@@ -27,7 +30,8 @@
               height="25"
               class="d-inline-block align-text-top" />
           </a>
-
+        </div>
+        <div class="col-7 col-md-7 text-end">
           <button
             class="navbar-toggler"
             type="button"
@@ -75,7 +79,7 @@
         </div>
       </nav>
       <div class="row header-first-part mt-5">
-        <div class="col-md-6 header-first-part-text ">
+        <div class="col-md-6 header-first-part-text">
           <h1 class="header-first-part-text-title">
             A Simple Bookmark Manager
           </h1>
@@ -86,31 +90,29 @@
           </p>
           <div class="header-first-part-text-paragraph-buttons">
             <button
-            type="button"
-            class="btn btn-secondary header-first-part-buttons-chrome px-4 py-2">
-            Get it on Chrome
-          </button>
-          <button
-            type="button"
-            class="btn btn-secondary header-first-part-buttons-firefox px-4 py-2">
-            Get it on Firefox
-          </button>
+              type="button"
+              class="btn btn-secondary header-first-part-buttons-chrome px-4 py-2">
+              Get it on Chrome
+            </button>
+            <button
+              type="button"
+              class="btn btn-secondary header-first-part-buttons-firefox px-4 py-2">
+              Get it on Firefox
+            </button>
           </div>
-          
         </div>
         <div class="col-md-6 header-first-part-image">
-          <div class="header-first-part-image-circle"></div>
           <img
+            width="100%"
             src="./Imagenes/illustration-hero.svg"
             alt="illustration-hero"
             class="header-first-part-image-foto" />
         </div>
       </div>
 
-      <!--body primera parte-->
       <div>
         <div class="row">
-          <div class="col-md-12 body-paragraph-middle">
+          <div class="col-md-12 col-12 body-paragraph-middle">
             <h2 class="body-paragraph-middle-title">Features</h2>
             <p class="body-paragraph-middle-text">
               Our aim is to make it quick and easy for you to access your
@@ -158,7 +160,7 @@
               </button>
             </div>
           </nav>
-          <!-- CONTENIDO TAB-->
+
           <div
             class="tab-content body-tab-content mb-5"
             id="nav-tabContent">
@@ -168,13 +170,14 @@
               role="tabpanel"
               aria-labelledby="nav-home-tab">
               <div class="h-100 d-flex row">
-                <div class="col-md-6">
+                <div class="col-lg-6 col-12">
                   <img
                     class="body-tab-content-first-tab-image"
                     src="./Imagenes/illustration-features-tab-1.svg"
-                    alt="" />
+                    alt=""
+                    width="100%" />
                 </div>
-                <div class="col-md-6 body-tab-content-first-tab-texts ">
+                <div class="col-lg-6 col-12 body-tab-content-first-tab-texts">
                   <h2 class="body-tab-content-first-tab-title">
                     Bookmark in one click
                   </h2>
@@ -197,13 +200,15 @@
               role="tabpanel"
               aria-labelledby="nav-profile-tab">
               <div class="h-100 d-flex body-tab-content-second-tab-all">
-                <div class="col-md-6">
+                <div class="col-lg-6 col-12">
                   <img
                     class="body-tab-content-second-tab-image"
                     src="./Imagenes/illustration-features-tab-2.svg"
-                    alt=" " />
+                    alt=" "
+                    width="100%" />
                 </div>
-                <div class="col-md-6 body-tab-content-second-tab-title-parr">
+                <div
+                  class="col-lg-6 col-12 body-tab-content-second-tab-title-parr">
                   <h2 class="body-tab-content-first-tab-title">
                     Intelligent search
                   </h2>
@@ -228,17 +233,19 @@
               aria-labelledby="nav-contact-tab">
               <div class="h-100">
                 <div class="row d-flex body-tab-content-tab3">
-                  <div class="col-md-6 ">
+                  <div class="col-lg-6 col-12">
                     <img
                       class="body-tab-content-third-tab-image"
                       src="./Imagenes/illustration-features-tab-3.svg"
-                      alt="" />
+                      alt=""
+                      width="100%" />
                   </div>
-                  <div class="col-md-6 body-tab-content-third-tab3-texts">
-                    <h2 class="body-tab-content-thrid-tab-title">
+                  <div
+                    class="col-lg-6 col-12 body-tab-content-third-tab3-texts">
+                    <h2 class="body-tab-content-third-tab-title">
                       Share your bookmarks
                     </h2>
-                    <p class="body-tab-content-thrid-tab-text mt-4">
+                    <p class="body-tab-content-third-tab-text mt-4">
                       Easily share your bookmarks and collections with others.
                       Create a shareable link that you can send at the click of
                       a button.
@@ -255,7 +262,7 @@
           </div>
         </div>
       </div>
-      <!-- contenido body 2da parte-->
+
       <div>
         <div class="row body-paragraph-middle-second-part">
           <div class="col-md-12">
@@ -268,10 +275,9 @@
             </p>
           </div>
         </div>
-        <!--tarjetas body-->
 
         <div class="row mb-4 cards-all">
-          <div class="col-md-4">
+          <div class="col-lg-4 col-12">
             <div class="card cards-first-second-third">
               <img
                 src="./Imagenes/logo-chrome.svg"
@@ -323,7 +329,7 @@
             </div>
           </div>
         </div>
-        <!-- contenido body 3era parte-->
+
         <div class="row body-paragraph-middle-second-part">
           <div class="col-md-12">
             <h2 class="body-paragraph-middle-second-part-title">
@@ -335,11 +341,10 @@
             </p>
           </div>
 
-          <!--acordeon-->
           <div class="row">
-            <div class="col-md-3"></div>
+            <div class="col-md-3 col-1"></div>
             <div
-              class="accordion accordion-flush accordion-box-all col-6"
+              class="accordion accordion-flush accordion-box-all col-lg-6 col-10"
               id="accordionFlushExample">
               <div class="accordion-item">
                 <h2
@@ -355,6 +360,11 @@
                     What is Bookmark?
                   </button>
                 </h2>
+                <div
+                  id="flush-collapseOne"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingOne"
+                  data-bs-parent="#accordionFlushExample"></div>
               </div>
               <div class="accordion-item">
                 <h2
@@ -408,45 +418,48 @@
               <div class="accordion-item">
                 <h2
                   class="accordion-header"
-                  id="flush-headingThree">
+                  id="flush-headingFour">
                   <button
                     class="accordion-button collapsed accordion-text"
                     type="button"
                     data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseThree"
+                    data-bs-target="#flush-collapseFour"
                     aria-expanded="false"
-                    aria-controls="flush-collapseThree">
-                    What abaout other Chromium browsers?
+                    aria-controls="flush-collapseFour">
+                    What about other Chromium browsers?
                   </button>
                 </h2>
                 <div
-                  id="flush-collapseThree"
+                  id="flush-collapseFour"
                   class="accordion-collapse collapse"
-                  aria-labelledby="flush-headingThree"
+                  aria-labelledby="flush-headingFour"
                   data-bs-parent="#accordionFlushExample"></div>
               </div>
               <button
                 type="button"
-                class="body-tab-content-first-tab-button-2 ">
+                class="body-tab-content-first-tab-button-2">
                 More Info
               </button>
             </div>
-            <div class="col-md-3"></div>
+            <div class="col-md-3 col-1"></div>
           </div>
         </div>
-        <!--footer-->
-        <div class="row footer ">
-          <div class="col-md-3 container"></div>
-          <div class="col-md-6">
-            <h6 class="footer-title-1">35,000 + ALREADY JOINED</h6>
-            <h3 class="footer-title-2">
-              Stay up-to-date with what we're doing
-            </h3>
-            <form
-              class="row d-flex footer-form-all"
-              name="emailForm"
-              onsubmit="return validateEmail()">
-              <div class="col-md-12">
+      </div>
+    </div>
+    <div>
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-1"></div>
+            <div class="col-md-6 col-10">
+              <h6 class="footer-title-1">35,000 + ALREADY JOINED</h6>
+              <h3 class="footer-title-2">
+                Stay up-to-date with what we're doing
+              </h3>
+              <form
+                class="footer-form-all"
+                name="emailForm"
+                onsubmit="return validateEmail()">
                 <label
                   for="email"
                   class="visually-hidden"
@@ -463,57 +476,80 @@
                   class="btn btn-primary footer-form-all-button">
                   Contact Us
                 </button>
-              </div>
-            </form>
-          </div>
-          <div class="col-md-3"></div>
-        </div>
-
-        <div class="footer-final row">
-         
-            <div class="col-md-6 footer-final-buttons-all">
-              <a
-                class=""
-                href="#">
-                <img
-                  src="/Imagenes/logo-bookmark.svg"
-                  alt="Logo"
-                  width="140"
-                  height="25"
-                  class="d-inline-block align-text-top footer-final-logo" />
-              </a>
-              <a href="#" class="footer-final-buttons">FEATURES</a>
-
-              <a href="#" class="footer-final-buttons">PRICING</a>
-
-              <a href="#" class="footer-final-buttons">CONTACT</a>
+              </form>
             </div>
-             <div class="col-md-6 footer-final-social-medias">
-              <a
-                class=""
-                href="#">
-                <img
-                  src="/Imagenes/icon-facebook.svg"
-                  alt="Logo"
-                  width="140"
-                  height="25"
-                  class="d-inline-block align-text-top footer-final-social-networks " />
-              </a>
-              <a
-                class=""
-                href="#">
-                <img
-                  src="/Imagenes/icon-twitter.svg"
-                  alt="Logo"
-                  width="140"
-                  height="25"
-                  class="d-inline-block align-text-top footer-final-social-networks" />
-              </a>
-             </div>
-         
+            <div class="col-md-3 col-1"></div>
+          </div>
         </div>
       </div>
-      <!--cierre body final-->
+
+      <div class="footer-final">
+        <div class="row footer-final-row">
+          <div class="col-lg-1 col-0"></div>
+          <div class="col-lg-5 col-12 footer-final-buttons-all">
+            <div class="row footer-links">
+              <div class="col-lg-4 col-12">
+                <a
+                  class=""
+                  href="#">
+                  <img
+                    src="/Imagenes/logo-bookmark.svg"
+                    alt="Logo"
+                    fill="white"
+                    width="140"
+                    height="25"
+                    class="d-inline-block align-text-top footer-final-logo" />
+                </a>
+              </div>
+              <div class="col-lg-3 col-12 footer-final-buttons-menu">
+                <a
+                  href="#"
+                  class="footer-final-buttons"
+                  >FEATURES</a
+                >
+              </div>
+              <div class="col-lg-3 col-12 footer-final-buttons-menu">
+                <a
+                  href="#"
+                  class="footer-final-buttons"
+                  >PRICING</a
+                >
+              </div>
+              <div class="col-lg-2 col-12 footer-final-buttons-menu">
+                <a
+                  href="#"
+                  class="footer-final-buttons"
+                  >CONTACT</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5 col-12 footer-final-social-medias">
+            <a
+              class=""
+              href="#">
+              <img
+                src="/Imagenes/icon-facebook.svg"
+                alt="Logo"
+                width="140"
+                height="25"
+                class="d-inline-block align-text-top footer-final-social-networks facebook" />
+            </a>
+            <a
+              class=""
+              href="#">
+              <img
+                src="/Imagenes/icon-twitter.svg"
+                alt="Logo"
+                width="140"
+                height="25"
+                class="d-inline-block align-text-top footer-final-social-networks twitter" />
+            </a>
+          </div>
+          <div class="col-lg-1 col-0"></div>
+        </div>
+      </div>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
