@@ -341,14 +341,39 @@ overflow: hidden;
             }
       }
    }
+
+
+
 /*
-COMENTARIOS
+media query mobile----------------------------------------------------
+*/
 
-
-
-      
-      
+@media screen and (min-width: 768px) and (max-width: 990px){
+   .navbar-toggler{
+      margin-left: 30rem !important;
+      border: none;
    }
+.header-first-part{
+   display: block;
+}
+.header-first-part-image-foto{
+   position: absolute;
+   z-index: -1;
+   margin-top: -60rem;
+}
+.header-first-part-text{
+   margin-top: 30rem;
+ 
+   text-align: center;
+   
+}
+.header-first-part-text-title{
+
+}
+.header-first-part-text-paragraph{
+   
 }
 
-*/
+
+
+}
