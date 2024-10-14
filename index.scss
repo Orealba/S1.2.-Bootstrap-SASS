@@ -292,6 +292,10 @@ $secundario: #fa5959;
   padding-top: 2rem;
   padding-bottom: 2rem;
   text-decoration: none;
+  display: flex;
+  .footer-links {
+    display: flex;
+  }
   &-logo {
     margin-left: 3rem;
     margin-right: 3rem;
@@ -308,7 +312,11 @@ $secundario: #fa5959;
     }
   }
   &-social-medias {
-    text-align: end;
+    text-align: end !important;
+    justify-content: end !important;
+    align-items: end !important;
+    margin-left: 50rem;
+    margin-top: -2rem;
   }
   &-social-networks {
     width: 2rem;
@@ -506,6 +514,8 @@ media query mobile----------------------------------------------------
   .footer-final-social-medias {
     text-align: center;
     margin-top: 3rem;
+    margin-right: 0;
+    margin-left: -8rem;
   }
 
   .facebook {
@@ -515,4 +525,3 @@ media query mobile----------------------------------------------------
     margin-left: 1rem;
   }
 }
- 

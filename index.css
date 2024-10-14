@@ -225,7 +225,10 @@
   background-color: #1f1c4d;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  text-decoration: none; }
+  text-decoration: none;
+  display: flex; }
+  .footer-final .footer-links {
+    display: flex; }
   .footer-final-logo {
     margin-left: 3rem;
     margin-right: 3rem;
@@ -239,7 +242,11 @@
     .footer-final-buttons:hover {
       color: #fa5959 !important; }
   .footer-final-social-medias {
-    text-align: end; }
+    text-align: end !important;
+    justify-content: end !important;
+    align-items: end !important;
+    margin-left: 50rem;
+    margin-top: -2rem; }
   .footer-final-social-networks {
     width: 2rem;
     height: 2rem;
@@ -406,7 +413,9 @@ media query mobile----------------------------------------------------
 
   .footer-final-social-medias {
     text-align: center;
-    margin-top: 3rem; }
+    margin-top: 3rem;
+    margin-right: 0;
+    margin-left: -8rem; }
 
   .facebook {
     margin-left: 3rem; }
