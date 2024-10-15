@@ -332,7 +332,7 @@ $secundario: #fa5959;
 media query mobile----------------------------------------------------
 */
 
-@media screen and (max-width: 991px) {
+@media screen and (min-whith: 500px) and (max-width: 991px) {
   .navbar-toggler {
     border: none;
     &:hover {
