@@ -228,7 +228,8 @@
   text-decoration: none;
   display: flex; }
   .footer-final .footer-links {
-    display: flex; }
+    display: flex;
+    gap: 2rem; }
   .footer-final-logo {
     margin-left: 3rem;
     margin-right: 3rem;
@@ -245,12 +246,13 @@
     text-align: end !important;
     justify-content: end !important;
     align-items: end !important;
-    margin-left: 50rem;
-    margin-top: -2rem; }
+    display: flex;
+    margin-top: -2rem;
+    gap: 1rem; }
   .footer-final-social-networks {
     width: 2rem;
     height: 2rem;
-    margin-right: 3rem; }
+    margin-left: 10rem; }
     .footer-final-social-networks:hover {
       color: #fa5959 !important; }
 
@@ -412,15 +414,17 @@ media query mobile----------------------------------------------------
     margin-top: 2rem; }
 
   .footer-final-social-medias {
-    text-align: center;
     margin-top: 3rem;
     margin-right: 0;
-    margin-left: -8rem; }
+    margin-left: -16rem; }
+
+  .footer-row-mediaquery {
+    --bs-gutter-x: 0rem; }
 
   .facebook {
-    margin-left: 3rem; }
+    margin-left: 0rem; }
 
   .twitter {
-    margin-left: 1rem; } }
+    margin-left: 0rem; } }
 
 /*# sourceMappingURL=index.css.map */
