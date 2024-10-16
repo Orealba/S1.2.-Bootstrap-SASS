@@ -22,6 +22,6 @@ No es necesario instalar dependencias adicionales ni configuraciones especiales 
 #### Botones interactivos: Implementación de botones con efectos de hover y active para una mejor experiencia de usuario.
 #### Estructura con Bootstrap: Uso del sistema de grid de Bootstrap para organizar todos los elementos en filas y columnas, asegurando que la disposición se mantenga coherente en todas las resoluciones.
 ### Cómo visualizar el proyecto
-No es necesario instalar ninguna dependencia adicional. Simplemente descarga o clona el repositorio y abre el archivo index.html en tu navegador favorito.
+Colocar en la terminal este comando para compilar los estilos correctamente : sass --watch index.scss:index.css
 ### Contacto
 Si tienes alguna pregunta o sugerencia, no dudes en contactarme.
