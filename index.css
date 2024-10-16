@@ -249,12 +249,8 @@
     display: flex;
     margin-top: -2rem;
     gap: 1rem; }
-  .footer-final-social-networks {
-    width: 2rem;
-    height: 2rem;
-    margin-left: 10rem; }
-    .footer-final-social-networks:hover {
-      color: #fa5959 !important; }
+  .footer-final-social-networks:hover {
+    color: #fa5959 !important; }
 
 /*
 media query mobile----------------------------------------------------
@@ -416,7 +412,7 @@ media query mobile----------------------------------------------------
   .footer-final-social-medias {
     margin-top: 3rem;
     margin-right: 0;
-    margin-left: -16rem; }
+    justify-content: center !important; }
 
   .footer-row-mediaquery {
     --bs-gutter-x: 0rem; }

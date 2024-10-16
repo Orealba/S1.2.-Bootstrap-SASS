@@ -321,10 +321,6 @@ $secundario: #fa5959;
     gap: 1rem;
   }
   &-social-networks {
-    width: 2rem;
-    height: 2rem;
-
-    margin-left: 10rem;
     &:hover {
       color: $secundario !important;
     }
@@ -519,7 +515,7 @@ media query mobile----------------------------------------------------
   .footer-final-social-medias {
     margin-top: 3rem;
     margin-right: 0;
-    margin-left: -16rem;
+    justify-content: center !important;
   }
   .footer-row-mediaquery {
     --bs-gutter-x: 0rem;
