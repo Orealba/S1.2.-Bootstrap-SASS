@@ -250,7 +250,25 @@ $secundario: #fa5959;
   text-align: center;
   background-color: $principal;
   padding-top: 5rem;
-
+  .invalid-feedback {
+    background-color: $secundario;
+    width: 100%;
+    margin-top: -4px;
+    border-radius: 0 0 0.3rem 0.3rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.75rem;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+  }
+  .form-control.is-invalid,
+  .was-validated .form-control:invalid {
+    border: 2px solid $secundario !important;
+    z-index: 10;
+    position: relative;
+    background-image: url('./Imagenes/icon-error.svg') !important;
+  }
   &-title-1 {
     color: white;
     font-weight: 400;
@@ -266,24 +284,24 @@ $secundario: #fa5959;
   }
   &-form-all {
     padding-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    // gap: 1.5rem;
+    column-gap: 1.5rem;
   }
   &-form-all-box {
     width: 20rem;
     height: 3rem;
-    margin-right: 1rem;
-    border: none;
-    border-radius: 0.3rem;
+    border: 2px;
+    border-color: transparent;
+    border-radius: 0.3rem !important;
   }
-
-
-
-
-  
   &-form-all-button {
     background-color: $secundario;
     color: white;
     width: 8rem;
     height: 3rem;
+
     &:hover {
       background-color: white;
       color: $secundario;
@@ -330,7 +348,6 @@ $secundario: #fa5959;
       color: $secundario !important;
     }
   }
-  
 }
 
 /*

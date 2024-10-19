@@ -192,6 +192,23 @@
   text-align: center;
   background-color: #5265e1;
   padding-top: 5rem; }
+  .footer .invalid-feedback {
+    background-color: #fa5959;
+    width: 100%;
+    margin-top: -4px;
+    border-radius: 0 0 0.3rem 0.3rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.75rem;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    text-align: left; }
+  .footer .form-control.is-invalid,
+  .footer .was-validated .form-control:invalid {
+    border: 2px solid #fa5959 !important;
+    z-index: 10;
+    position: relative;
+    background-image: url("./Imagenes/icon-error.svg") !important; }
   .footer-title-1 {
     color: white;
     font-weight: 400;
@@ -204,13 +221,16 @@
     margin-bottom: 3rem;
     letter-spacing: 0.1em; }
   .footer-form-all {
-    padding-bottom: 5rem; }
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    column-gap: 1.5rem; }
   .footer-form-all-box {
     width: 20rem;
     height: 3rem;
-    margin-right: 1rem;
-    border: none;
-    border-radius: 0.3rem; }
+    border: 2px;
+    border-color: transparent;
+    border-radius: 0.3rem !important; }
   .footer-form-all-button {
     background-color: #fa5959;
     color: white;

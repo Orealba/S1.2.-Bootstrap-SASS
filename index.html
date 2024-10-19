@@ -481,21 +481,27 @@
             <h3 class="footer-title-2">
               Stay up-to-date with what we're doing
             </h3>
+
             <form
-              class="footer-form-all"
-              name="emailForm"
-              onsubmit="return validateEmail()">
+              class="footer-form-all needs-validation"
+              novalidate>
               <label
                 for="email"
                 class="visually-hidden"
                 >Email</label
               >
-              <input
-                type="email"
-                name="email"
-                placeholder="Enter your email address"
-                required
-                class="footer-form-all-box form-control" />
+              <div>
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Enter your email address"
+                  required
+                  class="footer-form-all-box form-control" />
+                <div class="invalid-feedback">
+                 Whoops, make sure it's an email
+                </div>
+              </div>
+
               <button
                 type="submit"
                 class="btn btn-primary footer-form-all-button">
@@ -579,19 +585,26 @@
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous">
-              function validateEmail() {
-        var emailInput = document.emailForm.email;
+      crossorigin="anonymous"></script>
 
-        if (emailInput.value === '' || !emailInput.value.includes('@')) {
-          emailInput.classList.add('is-invalid');
-          return false;
-        } else {
-          emailInput.classList.remove('is-invalid');
-        }
-
-        return true;
-      }
+    <script>
+      (function () {
+        'use strict';
+        var forms = document.querySelectorAll('.needs-validation');
+        Array.prototype.slice.call(forms).forEach(function (form) {
+          form.addEventListener(
+            'submit',
+            function (event) {
+              if (!form.checkValidity()) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+              form.classList.add('was-validated');
+            },
+            false,
+          );
+        });
+      })();
     </script>
   </body>
 </html>
