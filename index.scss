@@ -286,7 +286,7 @@ $secundario: #fa5959;
     padding-bottom: 5rem;
     display: flex;
     justify-content: center;
-    // gap: 1.5rem;
+
     column-gap: 1.5rem;
   }
   &-form-all-box {
@@ -503,6 +503,9 @@ media query mobile----------------------------------------------------
 
   .footer-title-2 {
     font-size: 1.5rem;
+  }
+  .footer-form-all {
+    display: block;
   }
   .footer-form-all-box {
     width: 100%;
