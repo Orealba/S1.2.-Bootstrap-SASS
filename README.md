@@ -27,4 +27,5 @@ No es necesario instalar dependencias adicionales ni configuraciones especiales 
 #### Estructura con Bootstrap: Uso del sistema de grid de Bootstrap para organizar todos los elementos en filas y columnas, asegurando que la disposición se mantenga coherente en todas las resoluciones.
 
 ### Contacto
+
 Si tienes alguna pregunta o sugerencia, no dudes en contactarme.
